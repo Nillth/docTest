@@ -1,0 +1,43 @@
+baseURL = "http://localhost/"
+appendPort = "false"
+port = 80
+#title = "MC"
+theme = "m10c"
+disqusShortname = "test-wntmldccfg"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+
+[params]
+  avatar = "MC.jpg"
+  description = "Short description of the author"
+  author = "Marc Collins"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/nillth"
+  
+  # Default theme
+  [params.style]
+    darkestColor = "#242930"
+    darkColor = "#353b43"
+    lightColor = "#afbac4"
+    lightestColor = "#ffffff"
+    primaryColor = "#57cc8a"
+
